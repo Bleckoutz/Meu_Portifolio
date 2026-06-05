@@ -1,0 +1,43 @@
+.hero-viewport[b-sneo35a29b] {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5rem;
+    border-bottom: 1px solid var(--border-grid);
+}
+
+.hero-header[b-sneo35a29b], .hero-footer[b-sneo35a29b] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-core[b-sneo35a29b] {
+    margin-top: -8vh;
+}
+
+.discipline-row[b-sneo35a29b] {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.line-delimiter[b-sneo35a29b] {
+    width: 60px;
+    height: 1px;
+    background-color: var(--border-grid);
+}
+
+.discipline-row[b-sneo35a29b]::after {
+    content: "■";
+    font-size: 0.6rem;
+    color: var(--text-pure);
+    animation: blinker-b-sneo35a29b 1.2s steps(2, start) infinite;
+}
+
+@keyframes blinker-b-sneo35a29b { 
+    to { visibility: hidden; } 
+}

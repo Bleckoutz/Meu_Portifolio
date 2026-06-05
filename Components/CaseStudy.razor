@@ -1,0 +1,16 @@
+<div class="project-card reveal-on-scroll">
+    <div class="project-meta">
+        <span class="project-id">@Index // @Title</span>
+        <a href="#" class="live-btn" target="_blank">LIVE PROJECT ↗</a>
+    </div>
+    
+    <div class="project-gallery">
+        <img src="@ImageUrl" alt="Preview @Title" />
+    </div>
+</div>
+
+@code {
+    [Parameter] public string Index { get; set; } = "00";
+    [Parameter] public string Title { get; set; } = "";
+    [Parameter] public string ImageUrl { get; set; } = "";
+}

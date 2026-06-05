@@ -1,0 +1,165 @@
+﻿@page "/"
+@inject IJSRuntime JS
+
+<PageTitle>RAFAEL // ARQUITETO & DESIGNER</PageTitle>
+
+<header class="site-header">
+    <div class="brand-name">Dev Rafael</div>
+    <nav class="nav-links">
+        <a @onclick='() => RolarParaSecao("about-target")' style="cursor: pointer;">Sobre</a>
+        <a @onclick='() => RolarParaSecao("projects-target")' style="cursor: pointer;" class="active">Projetos</a>
+        <a @onclick='() => RolarParaSecao("contact-target")' style="cursor: pointer;">Contato</a>
+    </nav>
+</header>
+
+<main>
+    <section class="hero-section" id="about-target">
+        
+        <div class="hero-text-block reveal-on-scroll">
+            <div class="hero-greeting-wrapper">
+                <span class="hero-sub">OLÁ, EU SOU O</span>
+                <h1 class="hero-title-massive">RAFAEL</h1>
+            </div>
+            <p class="hero-description">
+                Desenvolvo sistemas, jogos e experiências digitais de alta performance, com foco em arquitetura escalável, eficiência e experiências de uso fluidas.
+            </p>
+        </div>
+
+        <div class="hero-image-block reveal-on-scroll">
+            <img src="Imagens/Imagemprotifolio.jpeg" alt="Avatar Rafael" />
+        </div>
+
+    </section>
+
+    <section class="stacks-ticker-container reveal-on-scroll">
+        <div class="ticker-track">
+            
+            <div class="ticker-group">
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" alt=".NET 10" />
+                    <span>.NET 10</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" />
+                    <span>C#</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg" alt="Blazor" />
+                    <span>Blazor</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" />
+                    <span>Java</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" alt="Unity" />
+                    <span>Unity</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                    <span>JavaScript</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
+                    <span>HTML5</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
+                    <span>CSS3</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="SQLite" />
+                    <span>SQLite</span>
+                </div>
+            </div>
+            
+            <div class="ticker-group" aria-hidden="true">
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" alt=".NET 10" />
+                    <span>.NET 10</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" />
+                    <span>C#</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/blazor/blazor-original.svg" alt="Blazor" />
+                    <span>Blazor</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" />
+                    <span>Java</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original.svg" alt="Unity" />
+                    <span>Unity</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                    <span>JavaScript</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
+                    <span>HTML5</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
+                    <span>CSS3</span>
+                </div>
+                <div class="ticker-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="SQLite" />
+                    <span>SQLite</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="projects-target">
+        <Archive />
+    </div>
+
+    <section class="testimonials-grid">
+        <div class="testimonial-card reveal-on-scroll">
+            <p class="testimonial-text">"Chega a ser incrível a estabilidade dos sistemas desenvolvidos. A latência de ingestão de dados caiu para zero após a nova atualização de roteamento do kernel."</p>
+            <span class="testimonial-author">// DR. KATHERINE M., CIÊNCIAS APLICADAS</span>
+        </div>
+
+        <div class="testimonial-card reveal-on-scroll">
+            <p class="testimonial-text">"Um olhar excepcional para interfaces brutas e sofisticadas de alto padrão, além de uma excelente arquitetura de gerenciamento de dados. Altamente recomendado."</p>
+            <span class="testimonial-author">// MARCUS V., ENGENHEIRO CHEFE NA IMPACT</span>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact-target">
+    <h2 class="section-label">VAMOS ENTRAR EM CONTATO</h2>
+    <form class="contact-form">
+        <div class="form-group">
+            <input type="text" name="from_name" placeholder="Nome completo" required />
+            <input type="email" name="reply_to" placeholder="E-mail" required />
+        </div>
+        <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+        <button type="submit" class="submit-btn">ENVIAR MENSAGEM</button>
+    </form>
+</section>
+</main>
+
+<footer class="site-footer">
+    <div>© 2026 RAFAEL. TODOS OS DIREITOS RESERVADOS.</div>
+    <div>São Paulo, Brasil</div>
+</footer>
+
+@code {
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("initPortfolioMotion");
+        }
+    }
+
+    private async Task RolarParaSecao(string elementId)
+    {
+        await JS.InvokeVoidAsync("eval", $"document.getElementById('{elementId}').scrollIntoView({{ behavior: 'smooth' }})");
+    }
+}

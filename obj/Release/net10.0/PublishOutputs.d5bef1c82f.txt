@@ -1,0 +1,4 @@
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Release\net10.0\publish\wwwroot\index.html
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Release\net10.0\publish\Portifolio.runtimeconfig.json
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Release\net10.0\publish\dotnet.js
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Release\net10.0\publish\web.config
