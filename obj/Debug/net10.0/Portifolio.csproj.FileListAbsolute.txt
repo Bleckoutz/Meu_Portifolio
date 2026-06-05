@@ -207,6 +207,9 @@ C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_fra
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Microsoft.DotNet.HotReload.WebAssembly.Browser.1vk97ay1th.wasm
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Portifolio.k5x18b8a7k.wasm
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Portifolio.6msumy1r9g.pdb
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\dotnet.qi3f3gt0kg.js
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\blazor.webassembly.958z1vx7fr.js.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.s5zxhf8cpw.wasm.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Microsoft.AspNetCore.Components.xp2g4rd365.wasm.gz
@@ -415,6 +418,9 @@ C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_fra
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\icudt_EFIGS.tptq2av103.dat.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\icudt_no_CJK.lfu7j35m59.dat.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Microsoft.DotNet.HotReload.WebAssembly.Browser.1vk97ay1th.wasm.gz
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Portifolio.k5x18b8a7k.wasm.gz
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Portifolio.6msumy1r9g.pdb.gz
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\dotnet.qi3f3gt0kg.js.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\Portifolio.staticwebassets.runtime.json
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\Portifolio.staticwebassets.endpoints.json
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\Portifolio.dll
@@ -637,6 +643,7 @@ C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\Portifolio.A
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\Portifolio.AssemblyInfo.cs
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\Portifolio.csproj.CoreCompileInputs.cache
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\Portifolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\Portifolio.sourcelink.json
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\webcil\Microsoft.AspNetCore.Components.wasm
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -853,7 +860,7 @@ C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\dotnet.js
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\staticwebassets\htmlassetplaceholders\build\ov1dpegg9d.html
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\qw80uusds0-{0}-99zm1jdh75-99zm1jdh75.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\83skg3lujt-{0}-vv5akwuvfi-vv5akwuvfi.gz
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\p2vm0s1747-{0}-jcftpu2vtc-jcftpu2vtc.gz
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\p2vm0s1747-{0}-6t1v08bp4k-6t1v08bp4k.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\9s1ar9b7ll-{0}-bqjiyaj88i-bqjiyaj88i.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\1z2e795pet-{0}-c2jlpeoesf-c2jlpeoesf.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\k8q4v402p7-{0}-erw9l3u2r3-erw9l3u2r3.gz
@@ -1109,6 +1116,10 @@ C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\s
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\62csymay14-{0}-tptq2av103-tptq2av103.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\v26hdif27l-{0}-lfu7j35m59-lfu7j35m59.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\f0g1zoeb1y-{0}-1vk97ay1th-1vk97ay1th.gz
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\dpdbnyj8xt-{0}-k5x18b8a7k-k5x18b8a7k.gz
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\qwyj8o6pb8-{0}-6msumy1r9g-6msumy1r9g.gz
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\lenyknn1du-{0}-qi3f3gt0kg-qi3f3gt0kg.gz
+C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\4arzofpp1w-{0}-dbz9pmnefm-dbz9pmnefm.gz
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\staticwebassets.development.json
@@ -1119,13 +1130,3 @@ C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\Portifolio.d
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\refint\Portifolio.dll
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\Portifolio.pdb
 C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\ref\Portifolio.dll
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Portifolio.8wqv694ts6.wasm
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Portifolio.iv7h04coyy.pdb
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\dotnet.f7vxtglh1k.js
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Portifolio.8wqv694ts6.wasm.gz
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\Portifolio.iv7h04coyy.pdb.gz
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\bin\Debug\net10.0\wwwroot\_framework\dotnet.f7vxtglh1k.js.gz
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\dpdbnyj8xt-{0}-8wqv694ts6-8wqv694ts6.gz
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\qwyj8o6pb8-{0}-iv7h04coyy-iv7h04coyy.gz
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\lenyknn1du-{0}-f7vxtglh1k-f7vxtglh1k.gz
-C:\Users\catia\Desktop\Projetoaprendiz\Portifolio\obj\Debug\net10.0\compressed\4arzofpp1w-{0}-kpn8mqm14h-kpn8mqm14h.gz
