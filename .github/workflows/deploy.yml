@@ -4,30 +4,38 @@ on:
   push:
     branches: [ main ]
 
+# ESTE É O BLOCO QUE CORRIGE O ERRO DA SUA IMAGEM:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  deploy-to-github-pages:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps:deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v3
-      with:
-        dotnet-version: '8.0.x' # Versão estável do SDK para compilar o Blazor
+    - uses: actions/checkout@v4
 
-    - name: Publish .NET Core Project
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x'
+
+    - name: Publish Project
       run: dotnet publish -c Release -o release
 
-    # Ajusta a tag base do HTML para o nome exato do seu repositório com "i"
-    - name: Change base-tag in index.html
-      run: sed -i 's/<base href="\/" \/>/<base href="\/Meu_Portifolio\/" \/>/g' release/wwwroot/index.html
-      
-    # Evita que o GitHub oculte arquivos cruciais do Blazor
-    - name: Add .nojekyll file
-      run: touch release/wwwroot/.nojekyll
-
-    - name: Commit wwwroot to GitHub Pages
-      uses: JamesIves/github-pages-deploy-action@v4
+    - name: Upload Artifacts
+      uses: actions/upload-pages-artifact@v3
       with:
-        branch: gh-pages
-        folder: release/wwwroot
+        path: release/wwwroot
+
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
